@@ -1,0 +1,52 @@
+id,state,abbr,income,obesity
+1,Alabama,AL,42830,33.5
+2,Alaska,AK,71583,29.7
+4,Arizona,AZ,50068,28.9
+5,Arkansas,AR,41262,35.9
+6,California,CA,61933,24.7
+8,Colorado,CO,61303,21.3
+9,Connecticut,CT,70048,26.3
+10,Delaware,DE,59716,30.7
+11,Washington D.C.,DC,71648,21.7
+12,Florida,FL,47463,26.2
+13,Georgia,GA,49321,30.5
+15,Hawaii,HI,69592,22.1
+16,Idaho,ID,47861,28.9
+17,Illinois,IL,57444,29.3
+18,Indiana,IN,49446,32.7
+19,Iowa,IA,53712,30.9
+20,Kansas,KS,52504,31.3
+21,Kentucky,KY,42958,31.6
+22,Louisiana,LA,44555,34.9
+23,Maine,ME,49462,28.2
+24,Maryland,MD,73971,29.6
+25,Massachusetts,MA,69160,23.3
+26,Michigan,MI,49847,30.7
+27,Minnesota,MN,61481,27.6
+28,Mississippi,MS,39680,35.5
+29,Missouri,MO,48363,30.2
+30,Montana,MT,46328,26.4
+31,Nebraska,NE,52686,30.2
+32,Nevada,NV,51450,27.7
+33,New Hampshire,NH,66532,27.4
+34,New Jersey,NJ,71919,26.9
+35,New Mexico,NM,44803,28.4
+36,New York,NY,58878,27
+37,North Carolina,NC,46556,29.7
+38,North Dakota,ND,59029,32.2
+39,Ohio,OH,49308,32.6
+40,Oklahoma,OK,47529,33
+41,Oregon,OR,51075,27.9
+42,Pennsylvania,PA,53234,30.2
+44,Rhode Island,RI,54891,27
+45,South Carolina,SC,45238,32.1
+46,South Dakota,SD,50979,29.8
+47,Tennessee,TN,44361,31.2
+48,Texas,TX,53035,31.9
+49,Utah,UT,60922,25.7
+50,Vermont,VT,54166,24.8
+51,Virginia,VA,64902,28.5
+53,Washington,WA,61366,27.3
+54,West Virginia,WV,41059,35.7
+55,Wisconsin,WI,52622,31.2
+56,Wyoming,WY,57055,29.5
