@@ -29,3 +29,20 @@ body {
   margin: 0;
   font-size: 16px;
 }
+
+.navbar {
+  position: relative;
+  min-height: 40px;
+  margin-bottom: 18px;
+  border: 1px solid transparent;
+}
+
+.navbar-default {
+  background-color: #ffffff;
+  border-color: #ffffff;
+}
+
+.article {
+  text-align: justify;
+  text-justify: auto;
+}

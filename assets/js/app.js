@@ -1,7 +1,7 @@
 // Set up chart
 var svgWidth = 960;
 var svgHeight = 500;
-var margin = {top: 20, right: 40, bottom: 60, left: 100};
+var margin = {top: 30, right: 40, bottom: 60, left: 100};
 var width = svgWidth - margin.left - margin.right;
 var height = svgHeight - margin.top - margin.bottom;
 
@@ -54,7 +54,7 @@ d3.csv("data/new_data.csv", function(err, healthData) {
     });
 
     yMax = d3.max(healthData, function(data) {
-        return +data.obesity *1.02;
+        return +data.obesity *1.08;
     });
     
     xLinearScale.domain([xMin, xMax]);
@@ -77,10 +77,15 @@ d3.csv("data/new_data.csv", function(err, healthData) {
 
     // Create tooltip
     chart.call(toolTip);
+    
+    var myCircles = svg.selectAll("g myCircles").data(healthData).enter();
 
-    chart.selectAll("circle")
-        .data(healthData)
-        .enter()
+    myCircles
+
+    // chart.selectAll("circle")
+    //     .data(healthData)
+    //     .enter()
+    myCircles
         .append("circle")
         .attr("cx", function(data, index) {
             return xLinearScale(data.income)
@@ -131,7 +136,7 @@ d3.csv("data/new_data.csv", function(err, healthData) {
     chart
         .append("text")
         .attr("transform", "rotate(-90)")
-        .attr("y", 0-margin.left + 40)
+        .attr("y", 0-margin.left + 50)
         .attr("x", 0 - height/2)
         .attr("dy","1em")
         .attr("class", "axis-text")
